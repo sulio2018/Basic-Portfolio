@@ -1,39 +1,29 @@
 * {box-sizing: border-box;}
 
+
 body {
     margin: 0 auto;
-    height: 90vh;
+    height: 118vh;
     background-size: cover;
     overflow: hidden;
-}
-
-h2 {
-    color: #4aaaa5;
-    border-bottom: solid 2px gainsboro;
-    padding-bottom: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
 }
 
 .my-header {
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #ffffff; 
     width: 100%;
-    height: 100px;
+    height: 13.5%;
     border-bottom: solid 2px gainsboro;
 }
 
-header::after {
-    clear: both;
-}
 
 #my-name {
     float: left;
     width: 20%;
-    height: 100px;
+    height: 90px;
     padding-bottom: 25px;
-    padding-top: 25px;
-    margin-left: 130px;
+    padding-top: 18px;
+    margin-left: 270px;
     text-align: center;
     background-color: #4aaaa5;
     color: white;
@@ -43,8 +33,8 @@ header::after {
 .my-links {
     float: right;
     color: #777777;
-    margin-top: 50px;
-    margin-right: 190px;
+    margin-top: 40px;
+    margin-right: 275px;
     text-decoration: none;
 }
 
@@ -54,45 +44,56 @@ nav a {
     text-decoration-line: none;
 }
 
+h2 {
+    color: #4aaaa5;
+    border-bottom: solid 2px gainsboro;
+    padding-bottom: 20px;
+}
+
 .container {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: url(../images/floor-tile.png);
-    min-height: 100px;
     align-content: center;
     padding: 20px;
     width: 100%;
-    height: 80%;
-    float: left;
-}
-
-#main-content,
-#my-image {
-    float: left;
-    background-color: #ffffff;
-    margin-left: 110px;
-    clear: both;
+    height: 60%;
 }
 
 #main-content {
-    width: 960px;
-    padding: 10px;
-    line-height: 1.6;
+    width: 740px;
+    padding: 15px;
+    line-height: 1;
+    background-color: #ffffff;
+    margin: 0 auto;
     color: #777777;
 }
 
-p {
-    margin-top: 30px;
-    margin-left: 15px;
-}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
 
-#my-image {
-    margin-top: 30px;
-    margin-left: 0;
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+input[type=submit] {
+    color: #ffffff;
+    background-color: #4aaaa5;
 }
 
 #my-footer {
     background-color: #666666;
-    padding: 35px;
+    height: 12%;
+    padding: 28px;
     text-align: center;
     color: gainsboro;
     border-top: solid 5px #4aaaa5;
