@@ -1,8 +1,7 @@
 * {box-sizing: border-box;}
 
 body {
-    margin: 0 auto;
-    height: 90vh;
+    margin: 0 auto; 
     background-size: cover;
     overflow: hidden;
 }
@@ -20,7 +19,7 @@ h2 {
     background-color: #ffffff; 
     width: 100%;
     height: 100px;
-    border-bottom: solid 2px gainsboro;
+    border-bottom: solid 2px #cccccc;
 }
 
 header::after {
@@ -78,6 +77,7 @@ nav a {
     padding: 10px;
     line-height: 1.6;
     color: #777777;
+    border: 2px solid #cccccc;
 }
 
 p {
@@ -92,9 +92,9 @@ p {
 
 #my-footer {
     background-color: #666666;
-    padding: 35px;
+    padding: 30px;
     text-align: center;
-    color: gainsboro;
+    color: #ffffff;
     border-top: solid 5px #4aaaa5;
     clear: both;
 }
